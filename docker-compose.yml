@@ -6,9 +6,9 @@ services:
     depends_on:
       - swetrix-api
     ports:
-      - '80:3000'
+      - '82:3000'
     environment:
-      - API_URL=http://localhost:8080/
+      - API_URL=http://localhost:8280/
       - SELFHOSTED=true
 
   # This is the analytics API
